@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+
+}
+html,body {
+	margin:0;
+	padding:0;
+	
+}
+
+/*html{
+	overflow:hidden;
+}
+*/
+
+
+address,caption,cite,code,dfn,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+
+body{
+	font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	background: #000;
+	font-weight: 400;
+	font-size: 15px;
+	color: #aa3e03;
+	
+}
+.ie7 body{
+	overflow:hidden;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+.container{
+	position: relative;
+	text-align: center;
+}
+.clr{
+	clear: both;
+}
+.container > header{
+	padding: 30px 30px 10px 20px;
+	margin: 0;
+	margin-top: 350px;
+	position: relative;
+	display: block;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    text-align: center;
+}
+.container > header h1 a{
+	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+	font-size: 150px;
+	line-height: 35px;
+	position: relative;
+	font-weight: 400;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    padding: 0px 0px 5px 0px;
+}
+.container > header h1 span{
+}
+
+.container > header h2, p.info{
+	font-size: 24px;
+	font-style: italic;
+	color: #f8f8f8;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+}
+
+.container > header.finalheader{
+	padding: 5px 30px 5px 20px;
+	margin: 0;
+	margin-top: 8px;
+}
+
+.container > header.initialheader h1{
+	margin-top:45px;
+}
+
+.container > header.initialheader{
+	margin-top:200px;
+}
+
+.container > header.finalheader h1{
+	margin-top:15px;
+}
+
+.container > header.finalheader h1 a{
+	font-size: 70px;
+}
+
+.container > header.finalheader h2, p.info{
+	font-size: 18px;
+	
+}
+
+
+
+
+.content{
+	position: relative;
+	text-align: left;
+	width: 70%;
+	max-width: 600px;
+	min-width:280px; 
+	margin: 50px auto 2px auto;	
+	background: rgb(0,0,0); 
+    background: rgba(0, 0, 0, 0.3);
+}
+
+
+.content > p{
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	color: #fff;
+	font-size: 1.2em;
+	/*border-bottom:1px solid #fff;
+	border-top:1px solid #fff;
+	padding: 20px 50px;*/
+}
+
+nav{
+	width:50% ;
+	min-width: 250px;
+	max-width: 500px;
+	margin: 5px auto;
+}
+
+nav ul{
+	position:absolute;
+	margin-top:5px;
+	padding:0;
+	list-style: none;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+
+nav ul li{
+	float:left;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+nav ul li a{
+	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+	font-size:1em;
+	text-decoration:none;
+	display:inline-block;
+	color:#fff;
+	padding:2px;
+
+}
+
+nav ul li a:hover{
+	color:#feea00;	
+}
+
+nav ul li a:active{
+		
+}
+
+.text{
+	font-family:  'Arial Narrow', Arial, sans-serif;
+	font-size:1.2em;
+
+}
+
+#text7{
+	text-align: center;
+}
+/*.sponsors{
+	margin:0;
+	padding: 5px;
+	position: relative;
+}
+
+.sponsors > h2{
+	padding: 0 5px;
+	display:inline;
+	font-size: 24px;
+	font-style: italic;
+	color: #f8f8f8;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+}
+
+.sponsors > img{
+	padding:3px;
+	top: 50%;
+}*/
+
+/* Media Queries */
+@media screen and (max-width: 767px) {
+	.container > header{
+		text-align: center;
+	}
+	
+}
+
+.poster
+{
+	width: 140px;
+	margin-right: 20px;
+	height: 220px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 22px;
+	color: white;
+	vertical-align: top;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+a:link , a:hover ,a:active{
+	text-decoration:none;
+ color:white;
+}
+
+.posterimage
+{
+	position: relative;
+	top:0;
+	left:0;
+	width: 140px;
+	height: 190px;
+	clear: both;
+}
+
+.postercaption {
+    display: block;
+    color: white;
+}
